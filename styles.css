@@ -1,0 +1,145 @@
+body {
+    background-color: rgba(44, 133, 84, 0.582);
+    margin: 0%;
+    padding: 1%;
+
+}
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.nam {
+    color: rgb(77, 122, 85);
+}
+
+
+/* Header */
+header {
+
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+header .mark-parent nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+header .mark-parent nav ul li {
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+header .mark-parent nav ul li:hover {
+    background-color: rgb(58, 136, 136);
+    color: white;
+}
+
+
+.sub-topic {
+    text-align: center;
+    padding-bottom: 51px;
+    font-size: 40px;
+
+}
+
+
+.block {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    color: rgb(2, 24, 24);
+}
+
+.tons {
+    font-size: 20px;
+    padding: 19px 19px;
+    margin: 50px;
+    border-radius: 15px;
+    background-image: url(images/flowers.jpeg);
+    background-color: rgb(84, 165, 102);
+}
+
+.ton-2 {
+    background-image: url(images/preflo.jpeg);
+}
+
+.ton-3 {
+    background-image: url(images/imperialblue.jpeg);
+}
+
+.container {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(16, 14, 90);
+    text-align: center;
+}
+
+.img-group {
+    width: 100%;
+    justify-content: center;
+    padding-left: 3rem;
+    border-radius: 71px;
+
+}
+
+.ccontainer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(18, 150, 62);
+    border-radius: 1cap;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+
+}
+
+.part {
+    text-align: center;
+}
+
+.coat {
+    text-align: center;
+    width: fit-content;
+    color: rgb(2, 80, 145);
+
+
+}
+
+.shell {
+    width: fit-content;
+    padding: 5px;
+    background-color: rgb(18, 19, 18);
+    border-radius: 39%;
+    color: white;
+
+}
+
+.charger {
+    width: 100%;
+    justify-content: center;
+    padding-left: 13rem;
+
+}
+
+.image-group {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px;
+}
